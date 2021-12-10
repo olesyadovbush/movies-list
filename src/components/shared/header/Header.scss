@@ -1,0 +1,12 @@
+.header {
+  position: relative;
+  width: 100%;
+  z-index: 5;
+
+  &__flex-box {
+    padding: 10px 35px;
+    display: flex;
+    box-shadow: 0 3px 4px 0px #e9e6e6;
+    letter-spacing: -1px;
+  }
+}

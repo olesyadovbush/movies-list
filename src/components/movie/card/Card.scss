@@ -1,0 +1,27 @@
+.card {
+  min-width: 170px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 3px 4px 0px #e9e6e6;
+  height: 260px;
+
+    &:hover{
+      margin-top:-10px;
+      cursor: pointer;
+      box-shadow:  16px 16px 44px rgb(238,236,236), 
+             -16px -16px 44px #ececee;
+    transition: 0.3s all ease-in-out;
+    }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    &--bold {
+      font-weight: 600;
+    }
+  }
+
+}

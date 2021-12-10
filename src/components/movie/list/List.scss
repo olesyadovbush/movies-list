@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+  .card-block {
+    grid-template-rows: 1fr;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .card-block {
+    grid-template-rows: 1fr 1fr;
+  }
+}
+.card-block {
+  margin-top: 35px;
+  width: 100%;
+  display: grid;
+  grid-column-gap: 5rem;
+  grid-row-gap: 3rem;
+  justify-items: stretch;
+}
